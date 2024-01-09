@@ -11,8 +11,14 @@ const Navbar = () => {
         </Link>
 
         <div className="nav-links-container">
+          {/* Shop */}
           <Link className="nav-link" to={"/shop"}>
             Shop
+          </Link>
+
+          {/* sign in */}
+          <Link className="nav-link" to={"/sign-in"}>
+            Login
           </Link>
         </div>
       </div>
